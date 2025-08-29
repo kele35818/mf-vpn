@@ -32,7 +32,7 @@ jobs:
           AES_IV: ${{ secrets.AES_IV }}
           API_CODE: ${{ secrets.API_CODE }}
           API_TOKEN: ${{ secrets.API_TOKEN }}
-        run: python fetch_vmess.py
+        run: python mf.py
 
       # 提交 mf.txt 到仓库
       - name: Commit changes
