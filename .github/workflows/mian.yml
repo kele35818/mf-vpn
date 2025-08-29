@@ -26,7 +26,7 @@ jobs:
           pip install requests pycryptodome
 
       # 运行脚本
-      - name: Run fetch_vmess.py
+      - name: Run mf.py
         env:
           AES_KEY: ${{ secrets.AES_KEY }}
           AES_IV: ${{ secrets.AES_IV }}
