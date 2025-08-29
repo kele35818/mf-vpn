@@ -1,2 +1,5 @@
-# mf-vpn
-mf-vpn
+变量
+AES_KEY: ks9KUrbWJj46AftX
+AES_IV: ks9KUrbWJj46AftX
+API_CODE: H7XDMX
+API_TOKEN: amSTaWVnkZWOk2xwb2lqapOfbGRplWiRYW2Yk5NqmWVjZJE==
