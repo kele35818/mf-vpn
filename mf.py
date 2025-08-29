@@ -112,7 +112,7 @@ def main_loop():
     print(f"共获取到 {len(id_name_list)} 个区域/节点，开始获取详细数据...\n")
     for item in id_name_list:
         node_counter = get_data_for_area(item['id'], item['name'], seen_ips, node_counter)
-    print(f'\n已保存节点到蜜蜂.txt 文件，共计 {node_counter} 个节点')
+    print(f'\n已保存节点到mf.txt 文件，共计 {node_counter} 个节点')
 
 if __name__ == "__main__":
     main_loop()
